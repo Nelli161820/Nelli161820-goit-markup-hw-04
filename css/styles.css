@@ -145,6 +145,7 @@ span {
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg");
 	background-repeat: no-repeat; 
 	background-position: center;
+	background-size: 1440px;
 	
 }
 
@@ -384,37 +385,26 @@ margin-bottom: 72px;
 	width: 168px;
 	height: 88px;
 	box-sizing: border-box;
-	border: 1px solid #8E8F99;
-	border-radius: 4px;
+	/* border: 1px solid #8E8F99;
+	border-radius: 4px; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	fill: #8E8F99;
  }
- .customers-item:hover,
- .customers-item:focus {
-	border: 1px solid #404BBF;
-	border-radius: 4px;
-	fill: #404bbf;
-	
- }
-
- /* .icon-customers {
-	fill: #8E8F99;
-	
- }
-
- .icon-customers:hover,
- .icon-customers:focus {
-	fill: #404BBF;
- } */
-
+ 
  .customers-icon {
-fill: #8E8F99;
+	fill: #8E8F99;
+	border: 1px solid #8E8F99;
+	border-radius: 4px;
  }
  .customers-icon:hover,
  .customers-icon:focus {
-fill: #404BBF;
+	fill: #404BBF;
+	border: 1px solid #404BBF;
+	border-radius: 4px;
+	fill: #404bbf;
+
  }
  
 	
@@ -489,6 +479,12 @@ fill: #404BBF;
 	background: #434455;
 
  }
+ .icon-social {
+	display: flex;
+		
+ }
+
+
 .footer-item:hover,
 .footer-item:focus {
 	background: #31d0aa;
@@ -541,6 +537,7 @@ margin-bottom: 72px; ;
 	background: #404bbf; 
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 	border-radius: 4px;
+	border-color: #404bbf;
 	color: #ffffff; 
 	
 
@@ -561,7 +558,6 @@ margin-bottom: 72px; ;
 .project-item:hover,
 .project-item:focus {
 	background: #FFFFFF;
-	border: 1px solid #F4F4FD;
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 	
 }
@@ -584,11 +580,9 @@ margin-bottom: 72px; ;
  
 
 .blok-text{
-	outline: 1px solid red;
 	padding-top: 32px;  
 	padding-bottom: 32px;
 	padding-left: 16px; 
-	/* padding-right: 54px; */
 	border-bottom: 1px solid #E7E9FC;
 	border-left: 1px solid #E7E9FC;
 	border-right: 1px solid #E7E9FC;;
