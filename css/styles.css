@@ -122,8 +122,8 @@ span {
 	background-color: #4d5ae5;
 	border-radius: 2px;
 	position: absolute; 
-	bottom: 0; 
 	left: 0;
+	bottom: -1px;
 	
 
 }
@@ -710,18 +710,17 @@ fill: #e7e9fc;
 	top: 0;
 	left: 0;
 	transform: translate(0, 100%);
-	transition: 250ms linear;
+	transition: 250ms linear transform;
 }
-.overlay-box {
-	display: block;
+
+.overlay-blok {
 	position: relative;
 	overflow: hidden;
-	transition-property: transform;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-	transition-delay: 250ms;
+	
 }
-.overlay-box:hover .overlay {
+
+.overlay-blok:hover .overlay,
+.overlay-blok:focus .overlay {
 	transform: translate(0, 0);
 }
 
